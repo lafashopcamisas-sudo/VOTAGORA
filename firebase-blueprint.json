@@ -1,0 +1,113 @@
+{
+  "entities": {
+    "Poll": {
+      "title": "Poll",
+      "description": "A voting poll metadata",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "question": { "type": "string" },
+        "category": { "type": "string" },
+        "status": { "type": "string", "enum": ["active", "closed"] },
+        "totalVotes": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "imageUrl": { "type": "string" }
+      },
+      "required": ["id", "question", "status"]
+    },
+    "Option": {
+      "title": "Option",
+      "description": "A choice in a poll",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" },
+        "votes": { "type": "number" },
+        "imageUrl": { "type": "string" }
+      },
+      "required": ["id", "label", "votes"]
+    },
+    "UserVote": {
+      "title": "UserVote",
+      "description": "Evidence that a user has voted",
+      "type": "object",
+      "properties": {
+        "pollId": { "type": "string" },
+        "optionId": { "type": "string" },
+        "userId": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["pollId", "optionId", "userId", "timestamp"]
+    },
+    "Comment": {
+      "title": "Comment",
+      "description": "A user comment on the site or a specific poll",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "pollId": { "type": "string" },
+        "userId": { "type": "string" },
+        "userName": { "type": "string" },
+        "userAvatar": { "type": "string" },
+        "text": { "type": "string" },
+        "likes": { "type": "array", "items": { "type": "string" } },
+        "dislikes": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "userName", "text", "createdAt"]
+    },
+    "Ad": {
+      "title": "Ad",
+      "description": "Product advertisement slot",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "link": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "imageUrl", "link", "title"]
+    },
+    "News": {
+      "title": "News",
+      "description": "Reality show news update",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "category": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "title", "content", "imageUrl", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/polls/{pollId}": {
+      "schema": "Poll",
+      "description": "Poll metadata"
+    },
+    "/polls/{pollId}/options/{optionId}": {
+      "schema": "Option",
+      "description": "Options for a poll"
+    },
+    "/userVotes/{voteId}": {
+      "schema": "UserVote",
+      "description": "Record tracking user votes. ID: {pollId}_{userId}"
+    },
+    "/comments/{commentId}": {
+      "schema": "Comment",
+      "description": "User comments (global or poll-specific)"
+    },
+    "/ads/{adId}": {
+      "schema": "Ad",
+      "description": "Advertisement slots for products"
+    },
+    "/news/{newsId}": {
+      "schema": "News",
+      "description": "Reality show news updates"
+    }
+  }
+}

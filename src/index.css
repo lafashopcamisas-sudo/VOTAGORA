@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-green: #39FF14;
+  --color-gold: #FFD700;
+  --color-reality-red: #E30613;
+  --color-reality-dark-red: #A30000;
+  --color-dark-bg: #0A0A0A;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Anton', 'Impact', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-zinc-100 font-sans selection:bg-reality-red selection:text-white;
+  }
+}
+
+.poll-gradient {
+  background: radial-gradient(circle at center, rgba(227, 6, 19, 0.2) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.gold-text {
+  @apply bg-gradient-to-r from-red-500 via-white to-red-500 bg-clip-text text-transparent;
+}
+
+.reality-gradient-text {
+  @apply bg-gradient-to-b from-white via-zinc-300 to-zinc-500 bg-clip-text text-transparent;
+}
+
+.glass {
+  @apply backdrop-blur-md bg-white/5 border border-white/10;
+}
+
+.btn-reality {
+  @apply bg-gradient-to-b from-reality-red to-reality-dark-red text-white font-display text-xl uppercase tracking-wider py-4 px-8 rounded-xl shadow-[0_4px_20px_rgba(227,6,19,0.4)] hover:shadow-[0_4px_30px_rgba(227,6,19,0.6)] hover:scale-105 active:scale-95 transition-all;
+}
+
+.red-glow {
+  box-shadow: 0 0 20px rgba(227, 6, 19, 0.3);
+}
