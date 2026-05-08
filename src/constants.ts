@@ -10,9 +10,9 @@ export const INITIAL_POLLS: Poll[] = [
     createdAt: new Date().toISOString(),
     imageUrl: "https://images.unsplash.com/photo-1580587767523-120518ad2822?auto=format&fit=crop&q=80&w=1200",
     options: [
-      { id: "opt-jose", label: "LUIZA", votes: 350000, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
-      { id: "opt-maria", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
-      { id: "opt-joao", label: "THIAGO", votes: 12000, imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-SHEILA", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-THIAGO", label: "THIAGO", votes: 12000, imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
     ],
   },
   {
