@@ -3,16 +3,16 @@ import { Poll } from "./types";
 export const INITIAL_POLLS: Poll[] = [
   {
     id: "poll-patrao",
-    question: "CASA DO PATRÃO: QUEM VAI FICAR?",
-    category: "Outros",
+    question: "QUEM VAI SER ELIMINADO",
+    category: "CASA DO PATRÃO",
     status: "active",
-    totalVotes: 5420,
+    totalVotes: 985965,
     createdAt: new Date().toISOString(),
     imageUrl: "https://images.unsplash.com/photo-1580587767523-120518ad2822?auto=format&fit=crop&q=80&w=1200",
     options: [
-      { id: "opt-jose", label: "JOSE", votes: 1200, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
-      { id: "opt-maria", label: "MARIA", votes: 2100, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
-      { id: "opt-joao", label: "JOAO", votes: 2120, imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-jose", label: "LUIZA", votes: 350000, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-maria", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-joao", label: "THIAGO", votes: 12000, imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
     ],
   },
   {
