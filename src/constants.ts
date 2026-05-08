@@ -8,7 +8,7 @@ export const INITIAL_POLLS: Poll[] = [
     status: "active",
     totalVotes: 985965,
     createdAt: new Date().toISOString(),
-    imageUrl: "https://images.unsplash.com/photo-1580587767523-120518ad2822?auto=format&fit=crop&q=80&w=1200",
+    imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/QG5CIEJV6BF6JHVOQLXMGFXLHI.png",
     options: [
       { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
       { id: "opt-SHEILA", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
