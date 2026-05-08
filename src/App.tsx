@@ -376,7 +376,7 @@ export default function App() {
                 <div className="flex-grow rounded-2xl overflow-hidden bg-zinc-950/50 flex items-center justify-center relative shadow-inner group">
                   <a href="https://ibb.co/nqMGgR9g" target="_blank" rel="noopener noreferrer" className="w-full h-full flex">
                     <img 
-                      src="https://i.ibb.co/zWVMnNpn/enquete-quem-vai-vencer-a-casa-do-patrao.png" 
+                      src="https://i.ibb.co/F4GkcYRJ/cp-pesquisa-07-05.png" 
                       alt="Parciais Outros Sites" 
                       className="w-full h-full object-contain group-hover:scale-[1.02] transition-transform duration-1000" 
                       referrerPolicy="no-referrer"
