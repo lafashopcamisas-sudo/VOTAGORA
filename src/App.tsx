@@ -336,7 +336,7 @@ export default function App() {
              >
               <a href="https://ibb.co/bjKmPNnk" target="_blank" rel="noopener noreferrer">
                 <img 
-                  src="https://i.ibb.co/p6Lwx4pS/banner-votagora.png" 
+                  src="https://i.ibb.co/hRygTqNX/casa-do-patr-o.png" 
                   alt="Votagora Official Banner" 
                   className="w-full h-auto object-cover min-h-[150px]" 
                   referrerPolicy="no-referrer"
