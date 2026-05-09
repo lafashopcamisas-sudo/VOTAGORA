@@ -10,7 +10,7 @@ export const INITIAL_POLLS: Poll[] = [
     createdAt: new Date().toISOString(),
     imageUrl: "https://i.ibb.co/hJTPb8nD/logo-votagora.png%22%20alt=%22logo-votagora",
     options: [
-      { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://ibb.co/Kp8MdyQF" },
+      { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://i.ibb.co/hJTPb8nD/logo-votagora.png%22%20alt=%22logo-votagora" },
       { id: "opt-SHEILA", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
       { id: "opt-THIAGO", label: "THIAGO", votes: 12000, imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/QG5CIEJV6BF6JHVOQLXMGFXLHI.png" },
     ],
