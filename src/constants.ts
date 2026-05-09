@@ -3,14 +3,14 @@ import { Poll } from "./types";
 export const INITIAL_POLLS: Poll[] = [
   {
     id: "poll-patrao",
-    question: "QUEM VAI SER ELIMINADO",
+    question: "CASA DO PATRÃO:  QUEM VOCÊ QUER QUE FIQUE?",
     category: "CASA DO PATRÃO",
     status: "active",
-    totalVotes: 985965,
+    totalVotes: 625,
     createdAt: new Date().toISOString(),
     imageUrl: "https://ibb.co/nqMGgR9g",
     options: [
-      { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&q=80&w=400" },
+      { id: "opt-LUIZA", label: "LUIZA", votes: 350000, imageUrl: "https://ibb.co/Kp8MdyQF" },
       { id: "opt-SHEILA", label: "SHEILA", votes: 28000, imageUrl: "https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=400" },
       { id: "opt-THIAGO", label: "THIAGO", votes: 12000, imageUrl: "https://cloudfront-us-east-1.images.arcpublishing.com/newr7/QG5CIEJV6BF6JHVOQLXMGFXLHI.png" },
     ],
