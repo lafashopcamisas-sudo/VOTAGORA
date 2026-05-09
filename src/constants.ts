@@ -4,7 +4,7 @@ export const INITIAL_POLLS: Poll[] = [
   {
     id: "poll-patrao",
     question: "CASA DO PATRÃO:  QUEM VOCÊ QUER QUE FIQUE?",
-    category: "CASA DO PATRÃO",
+    category: "OUTROS",
     status: "active",
     totalVotes: 625,
     createdAt: new Date().toISOString(),
