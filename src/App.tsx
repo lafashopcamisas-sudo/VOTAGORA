@@ -387,7 +387,7 @@ export default function App() {
                   </a>
                   <div className="absolute inset-x-0 bottom-0 py-6 px-10 bg-gradient-to-t from-black to-transparent pointer-events-none">
                     <p className="text-white/60 text-[9px] uppercase font-bold tracking-[0.3em] text-center">
-                      MÉDIA PONDERADA DOS PRINCIPAIS PORTAIS DE NOTÍCIAS DO BRASIL
+                      PARCIAIS E TENDÊNCIAS DOS PRINCIPAIS PORTAIS DE REALITY DO BRASIL
                     </p>
                   </div>
                 </div>
@@ -632,7 +632,7 @@ export default function App() {
               {/* Other Polls Section */}
               <section className="max-w-7xl mx-auto px-4 mb-24 relative z-10">
                 <div className="flex items-center gap-4 mb-12">
-                  <h2 className="text-2xl md:text-5xl font-display text-white tracking-tighter uppercase shrink-0">OUTRAS <span className="text-reality-red">VOTAÇÕES</span></h2>
+                  <h2 className="text-2xl md:text-5xl font-display text-white tracking-tighter uppercase shrink-0">ENQUETES <span className="text-reality-red">EM DESTAQUE</span></h2>
                   <div className="h-[1px] bg-zinc-800 flex-grow"></div>
                   <div className="flex gap-2 shrink-0">
                     <div className="p-3 glass rounded-xl border-white/10 opacity-50"><Search className="w-5 h-5" /></div>
@@ -669,7 +669,7 @@ export default function App() {
                           { name: "BBB", icon: "👁️" },
                           { name: "A FAZENDA", icon: "🏠" },
                           { name: "POWER COUPLE", icon: "❤️" },
-                          { name: "NO LIMITE", icon: "🔥" },
+                          { name: "CASA DO PATRAO", icon: "🔥" },
                           { name: "ESTRELA DA CASA", icon: "⭐" },
                           { name: "OUTROS", icon: "•••" }
                         ].map((item, i) => (
@@ -693,12 +693,12 @@ export default function App() {
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-r from-reality-red/80 via-black to-black p-8 md:p-20 flex flex-col justify-center">
                     <div className="max-w-2xl">
-                      <h2 className="text-4xl md:text-7xl font-display text-white mb-6 uppercase tracking-tight leading-[0.85]">O SEU VOTO TEM PODER. <span className="text-reality-red">PARTICIPE!</span></h2>
+                      <h2 className="text-4xl md:text-7xl font-display text-white mb-6 uppercase tracking-tight leading-[0.85]">A OPINIÃO DO PÚBLICO MOVE O JOGO.<span className="text-reality-red">PARTICIPE!</span></h2>
                       <p className="text-zinc-400 font-bold uppercase text-xs md:text-sm tracking-[0.2em] mb-10 max-w-lg">
-                        Milhares de pessoas votando todos os dias com segurança e transparência total nos dados.
+                        Acompanhe as enquetes mais comentadas do momento com resultados atualizados em tempo real.
                       </p>
                       <button className="px-10 py-5 bg-reality-red text-white font-display text-2xl uppercase tracking-widest rounded-2xl shadow-reality-red/20 shadow-xl hover:scale-105 active:scale-95 transition-all">
-                        EXPLORAR TODAS ENQUETES
+                        VER TODAS AS ENQUETES
                       </button>
                     </div>
                   </div>
