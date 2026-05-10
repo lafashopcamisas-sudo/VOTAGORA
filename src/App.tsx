@@ -362,7 +362,9 @@ export default function App() {
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-8 bg-reality-red rounded-full"></div>
-                    <h2 className="text-2xl md:text-3xl font-display text-white uppercase tracking-tighter">Pesquisas de <span className="text-reality-red">Portais</span></h2>
+                    <<h2 className="text-2xl md:text-3xl font-display text-white uppercase tracking-tighter">
+  Parciais dos <span className="text-reality-red">Principais Portais</span>
+</h2>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="flex h-2 w-2 relative">
